@@ -62,7 +62,7 @@
     }
 
     .padding-top {
-        padding-top: 130px;
+        padding-top: 110px;
     }
 
     .padding-bottom {
@@ -179,7 +179,7 @@
     }
 
     .banner-main-section {
-        height: 910px;
+        height: 455px;
     }
 
     .banner-images-con figure:first-child img {
@@ -240,7 +240,7 @@
     }
 
     .padding-top {
-        padding-top: 110px;
+        padding-top: 90px;
     }
 
     .padding-bottom {
@@ -289,7 +289,9 @@
         font-size: 38px;
         line-height: 52px;
     }
-
+    .best-hospital-section{
+        height: 250px;
+    }
     .counter-section {
         height: 378px;
     }
@@ -354,6 +356,12 @@
 
     .index3-about-section .about-txt-con p {
         margin-bottom: 35px;
+    }
+   
+    .index3-counter-section.best-hospital-section {
+        background: #fbf7f3;
+        padding: 60px 0;
+        height: auto;
     }
 
     .index3-counter-section.counter-section {
@@ -861,7 +869,7 @@
     }
 
     .banner-main-section {
-        height: 640px;
+        height: 275px;
     }
 
     h1 {
@@ -892,7 +900,7 @@
     }
 
     .padding-top {
-        padding-top: 100px;
+        padding-top: 8px;
     }
 
     .padding-bottom {
@@ -1156,6 +1164,10 @@
         height: 400px;
     }
 
+    .hospital-boxh4 {
+        font-size: 26px;
+        line-height: 34px;
+    }
     .subscribe-con h4 {
         font-size: 26px;
         line-height: 34px;
@@ -1346,7 +1358,10 @@
     .plans-inner-con .generic-btn a {
         padding: 16px 30px;
     }
-
+    
+    .index3-counter-section.best-hospital-section {
+        padding: 50px 0;
+    }
     .index3-counter-section.counter-section {
         padding: 100px 0;
     }
@@ -1692,7 +1707,7 @@
     }
 
     .banner-main-section {
-        height: 500px;
+        height: 250px;
     }
 
     .banner-images-con figure:last-child img {
@@ -1745,7 +1760,7 @@
     }
 
     .padding-top {
-        padding-top: 80px;
+        padding-top: 60px;
     }
 
     .padding-bottom {
@@ -1870,7 +1885,9 @@
     .counter-outer-layer {
         padding: 80px 0;
     }
-
+    .best-hospital-section{
+        height: 152px;
+    }
     .counter-section {
         height: 324px;
     }
@@ -1960,6 +1977,11 @@
     .subscribe-con h3 {
         font-size: 20px;
         line-height: 26px;
+    }
+
+    .hospital-box {
+        padding: 25px 20px;
+        border-radius: 10px;
     }
 
     .subscribe-con {
@@ -2232,6 +2254,10 @@
         top: -65px;
         padding: 25px 25px;
     }
+    .hospital-box h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
 
     .subscribe-con h4 {
         font-size: 24px;
@@ -2325,6 +2351,10 @@
         width: 138px;
         height: 138px;
     }
+    .doctor-icon-detail h4 {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
 
     .doctor-detail h4 {
         font-size: 20px;
@@ -2352,6 +2382,9 @@
         margin: 0 3px;
     }
 
+    .doctor-icon-detail {
+        padding: 12px 12px 20px 12px;
+    }
     .doctor-detail {
         padding: 12px 12px 20px 12px;
     }
@@ -2419,7 +2452,9 @@
         height: 80px;
         margin-bottom: 20px;
     }
-
+    .index3-counter-section.best-hospital-section{
+        padding: 80px 0;
+    }
     .index3-counter-section.counter-section {
         padding: 80px 0;
     }
@@ -2580,11 +2615,11 @@
     }
 
     .banner-main-section {
-        height: 420px;
+        height: 210px;
     }
 
     .padding-top {
-        padding-top: 60px;
+        padding-top: 40px;
     }
 
     .padding-bottom {
@@ -2641,7 +2676,9 @@
     .counter-outer-layer {
         padding: 60px 0;
     }
-
+    .best-hospital-section{
+        height: 100%;
+    }
     .counter-section {
         height: 100%;
     }
@@ -2770,7 +2807,10 @@
     .subscribe-con h3 br {
         display: none;
     }
-
+    .hospital-box{
+        flex-direction: column;
+        text-align: center;
+    }
     .subscribe-con {
         flex-direction: column;
         text-align: center;
@@ -3020,6 +3060,12 @@
         margin-bottom: 10px;
     }
 
+    .hospital-box h4 br {
+        display: none;
+    }
+    .hospital-box h4 br {
+        display: none;
+    }
     .subscribe-con h4 br {
         display: none;
     }
@@ -3187,6 +3233,9 @@
         margin-bottom: 15px;
     }
 
+    .index3-counter-section.best-hospital-section{
+        padding: 60px 0;
+    }
     .index3-counter-section.counter-section {
         padding: 60px 0;
     }
@@ -3331,7 +3380,9 @@
     }
 
     .banner-main-section {
-        height: 380px;
+        background: url(../images/Project-images/banner-small.jpg) no-repeat top;
+        background-size: cover;
+        height: 500px;
     }
 
     .generic-title h2 br {
@@ -3454,7 +3505,9 @@
     .project-main-section .owl-carousel .owl-dots {
         bottom: 40px;
     }
-
+    .best-hospital-section {
+        height: 100%;
+    }
     .counter-section {
         height: 100%;
     }
@@ -3689,6 +3742,9 @@
         margin-top: -70px;
     }
 
+    .hospital-box h4 {
+        font-size: 22px;
+    }
     .subscribe-con h4 {
         font-size: 22px;
     }

@@ -456,7 +456,7 @@ input[type="number"]::-webkit-calendar-picker-indicator {
     font-size: 18px;
     line-height: 18px;
     text-decoration: none;
-    font-family: 'Marcellus', serif;
+    font-family :"Lato", Sans-serif;
     font-weight: 400;
     padding: 10px 4px;
     transition: all 0.3s ease-in-out;
@@ -518,7 +518,7 @@ input[type="number"]::-webkit-calendar-picker-indicator {
     margin-bottom: 12px;
 }
 .shop_section .shop_box .shop_box_content .price_wrapper span {
-    font-family: 'Marcellus', serif;
+    font-family :"Lato", Sans-serif;
     font-size: 20px;
     line-height: 26px;
     font-weight: 400;
@@ -638,7 +638,7 @@ input[type="number"]::-webkit-calendar-picker-indicator {
     margin-left: 0;
 }
 .product-detail .heading .price_wrapper span {
-    font-family: 'Marcellus', serif;
+    font-family :"Lato", Sans-serif;
     font-size: 20px;
     line-height: 26px;
     font-weight: 400;
@@ -781,7 +781,7 @@ input[type="number"]::-webkit-calendar-picker-indicator {
     font-size: 16px;
     line-height: 16px;
     text-decoration: none;
-    font-family: 'Marcellus', serif;
+    font-family :"Lato", Sans-serif;
     font-weight: 600;
     padding: 10px 4px;
     transition: all 0.3s ease-in-out;
@@ -979,7 +979,7 @@ input[type="number"]::-webkit-calendar-picker-indicator {
     margin-bottom: 12px;
 }
 .related_product_section .related_product_box .related_product_box_content .price_wrapper span {
-    font-family: 'Marcellus', serif;
+    font-family :"Lato", Sans-serif;
     font-size: 20px;
     line-height: 26px;
     font-weight: 400;
