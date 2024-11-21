@@ -1,4 +1,12 @@
 @media only screen and (max-width: 1800px) {
+      /* custom code  start*/
+      .about-mobile{
+        display: none;
+    }
+    .about-web{
+        display: block;
+    }
+     /* custom code  end*/
     .header-main-con .navbar-nav {
         gap: 14px;
         margin-right: 20px;
@@ -161,19 +169,33 @@
         height: 100%;
     }
 
+    .contact-inner-con-left figure img {
+        width: 80%;
+    }
     .contact-image-con figure img {
-        width: 100%;
+        width: 80%;
     }
 
     .index3-contact-con .contact-inner-con {
         gap: 30px;
-        grid-template-columns: 48% 49%;
+        grid-template-columns: 30% 69%;
+    }
+    .index3-contact-con .contact-inner-con-left {
+        gap: 30px;
+        grid-template-columns: 69% 30%;
     }
 
     /* index3 page responsive end */
 }
 
 @media only screen and (max-width: 1600px) {
+       /* custom code  start*/
+       .about-mobile{
+        display: none;
+    }
+    .about-web{
+        display: block;
+    }
     .container-fluid {
         padding: 0 12%;
     }
@@ -395,6 +417,13 @@
 }
 
 @media only screen and (max-width: 1400px) {
+       /* custom code  start*/
+       .about-mobile{
+        display: none;
+    }
+    .about-web{
+        display: block;
+    }
     .container-fluid {
         padding: 0 6%;
     }
@@ -793,6 +822,13 @@
 }
 
 @media only screen and (max-width: 1199px) {
+       /* custom code  start*/
+       .about-mobile{
+        display: none;
+    }
+    .about-web{
+        display: block;
+    }
     .container-fluid {
         padding: 0 2%;
     }
@@ -1049,9 +1085,9 @@
         padding: 17px 30px 17px 30px;
     }
 
-    .contact-form {
+    /* .contact-form {
         width: 435px;
-    }
+    } */
 
     .before-after-box figure {
         width: 100%;
@@ -1294,11 +1330,11 @@
     }
 
     .index3-contact-con .contact-inner-con {
-        grid-template-columns: 48.3% 48.3%;
+        grid-template-columns: 30% 69%;
     }
 
     .contact-form p {
-        font-size: 16px;
+        font-size: 13px;
         line-height: 24px;
         margin-bottom: 20px;
     }
@@ -1495,6 +1531,13 @@
 }
 
 @media only screen and (max-width: 991px) {
+       /* custom code  start*/
+       .about-mobile{
+        display: none;
+    }
+    .about-web{
+        display: block;
+    }
     #button {
         width: 80px;
         height: 80px;
@@ -1847,7 +1890,7 @@
     }
 
     .contact-form p {
-        font-size: 16px;
+        font-size: 13px;
         line-height: 24px;
         margin-bottom: 25px;
     }
@@ -2402,9 +2445,13 @@
         width: 18px;
         height: 32px;
     }
-
+    
+    .index3-contact-con .contact-inner-con-left {
+        grid-template-columns: auto;
+        gap: 25px;
+    }
     .index3-contact-con .contact-inner-con {
-        grid-template-columns: 47% 49%;
+        grid-template-columns: auto;
         gap: 25px;
     }
 
@@ -2505,7 +2552,8 @@
     }
 
     .index3-contact-con .contact-form p {
-        margin-bottom: 15px;
+        text-align: start;
+        margin-bottom: 12px;
     }
 
     /* about us page responsive end */
@@ -2553,6 +2601,21 @@
 }
 
 @media only screen and (max-width: 767px) {
+       /* custom code  start*/
+       .about-mobile{
+        display: block;
+    }
+    .about-web{
+        display: none;
+    }
+    /* custom code  start*/
+    .about-mobile{
+        display: block;
+    }
+    .about-web{
+        display: none;
+    }
+     /* custom code  end*/
     .banner-images-con figure:nth-child(2) img {
         width: 98px;
         height: 98px;
@@ -3191,12 +3254,16 @@
         height: 360px;
     }
 
-    .contact-image-con {
+    /* .contact-image-con {
         display: none;
+    } */
+    
+    .contact-inner-con-left .contact-inner-con {
+        grid-template-columns: auto;
+        gap: 25px;
     }
-
     .index3-contact-con .contact-inner-con {
-        grid-template-columns: 100%;
+        grid-template-columns: auto;
         gap: 25px;
     }
 
@@ -3334,6 +3401,13 @@
 }
 
 @media only screen and (max-width: 575px) {
+        /* custom code  start*/
+        .about-mobile{
+            display: block;
+        }
+        .about-web{
+            display: none;
+        }
     .cart-box {
         right: 50px;
     }
@@ -3474,7 +3548,7 @@
     }
 
     .contact-form p {
-        font-size: 16px;
+        font-size: 13px;
         line-height: 20px;
         margin-bottom: 25px;
     }

@@ -703,7 +703,7 @@ h5 {
     background-size: cover;
 }
 
-.contact-inner-con:after {
+/* .contact-inner-con:after {
     top: 50%;
     transform: translateY(-50%);
     left: 0;
@@ -713,10 +713,10 @@ h5 {
     background: url(../images/shape-img.png) no-repeat;
     position: absolute;
     filter: brightness(0) saturate(100%) invert(83%) sepia(11%) saturate(4294%) hue-rotate(310deg) brightness(101%) contrast(88%);
-}
+} */
 
 .contact-form {
-    width: 516px;
+    /* width: 516px; */
     position: relative;
     z-index: 1;
     color: var(--primary-color);
@@ -796,7 +796,7 @@ h5 {
 }
 
 .contact-form p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 28px;
     margin-bottom: 33px;
 }
@@ -2010,6 +2010,10 @@ h5 {
     width: 100%;
     float: left;
 }
+.index2-contact-sec .contact-inner-con-left {
+    width: 100%;
+    float: left;
+}
 
 .index2-contact-sec .contact-inner-con::after {
     background: url(../images/index2-contact-right-shape.png) no-repeat center;
@@ -2837,7 +2841,7 @@ h5 {
 }
 
 .index3-contact-con .contact-inner-con::after {
-    background: url(../images/index2-contact-right-shape.png) no-repeat center;
+    /* background: url(../images/index2-contact-right-shape.png) no-repeat center; */
     width: 293px;
     height: 279px;
     right: 0;
@@ -2918,12 +2922,19 @@ h5 {
 }
 
 .contact-image-con figure {
+    text-align: center;
     width: 641px;
     height: 591px;
     overflow: hidden;
     border-radius: 15px;
 }
 
+.index3-contact-con .contact-inner-con-left  {
+    display: grid;
+    gap: 55px;
+    grid-template-columns: 38% 48%;
+    align-items: center;
+}
 .index3-contact-con .contact-inner-con {
     display: grid;
     gap: 55px;
@@ -3898,15 +3909,8 @@ h5 {
   }
 
   
-  /* Contact Section */
-.contact-section {
-    /* display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 40px;
-    justify-content: center;  */
-}
-
+  /* Contact Section  ====================================== */
+  /* "Lato", Sans-serif */
 
 .contact-info, .surgery-types {
     background-color: var(--primary-color);
@@ -3952,7 +3956,12 @@ h5 {
     padding: 4px 0;
 }
 
-
+.about-mobile{
+    display: none;
+}
+.about-web{
+    display: block;
+}
 
   /* Responsive Adjustments */
   @media (max-width: 768px) {
@@ -3967,5 +3976,6 @@ h5 {
     .main-hospital .hospital-logo {
       margin-bottom: 10px;
     }
+    
   }
   
