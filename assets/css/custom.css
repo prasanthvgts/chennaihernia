@@ -20,10 +20,11 @@ html {
 }
 
 body {
-    font-size: 16px;
-    line-height: 23px;
+    font-size: 18px;
+    line-height: 27px;
     color: var(--text-color);
     font-weight: 400;
+    word-spacing: 5px;
     font-family: "Lato", Sans-serif;;
 }
 
@@ -3966,6 +3967,12 @@ h5 {
 }
 
 /* 'surgery' */
+.about-main-section figure img {
+    width: 100%;
+}
+.index2-about-image-box  figure img{
+    width: 100%;
+}
 .surgery-about-con{
     display: grid;
     gap: 25px;
@@ -3977,9 +3984,15 @@ h5 {
 .about-main-section ul{
     padding-left: 2rem;
 }
+.about-main-section ul li{
+  margin-bottom: 1rem;
+}
 /* .about-main-section h2,h3,h4,h5,h6,strong,a,p {
    
 } */
+.about-main-section p{ 
+    text-align: justify;
+}
 .about-main-section strong,a,p ul{
     letter-spacing: 0.5px;
     color: #555555;
