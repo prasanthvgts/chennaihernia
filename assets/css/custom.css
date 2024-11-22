@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Marcellus&family=Mulish:wght@400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 :root {
     --primary-color: #fff;
     --secondary-color: #232323;
@@ -24,7 +24,7 @@ body {
     line-height: 23px;
     color: var(--text-color);
     font-weight: 400;
-    font-family: 'Mulish', sans-serif;
+    font-family: "Lato", Sans-serif;;
 }
 
 /* generics start */
@@ -3977,8 +3977,17 @@ h5 {
 .about-main-section ul{
     padding-left: 2rem;
 }
+.about-main-section h2,h3,h4,h5,h6,strong,a,p {
+    font-size: 18px;
+    word-spacing: 1px !important;
+}
+.about-main-section strong,a,p {
+    letter-spacing: 0.5px;
+    color: #555555;
+}
 
 .about-main-section h3{
+   
     /* font-size: 28px; */
     color: var(--secondary-color);
 }
