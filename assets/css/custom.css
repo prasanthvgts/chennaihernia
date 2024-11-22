@@ -3977,13 +3977,14 @@ h5 {
 .about-main-section ul{
     padding-left: 2rem;
 }
-.about-main-section h2,h3,h4,h5,h6,strong,a,p {
-    font-size: 18px;
-    word-spacing: 1px !important;
-}
-.about-main-section strong,a,p {
+/* .about-main-section h2,h3,h4,h5,h6,strong,a,p {
+   
+} */
+.about-main-section strong,a,p ul{
     letter-spacing: 0.5px;
     color: #555555;
+    font-size: 18px;
+    word-spacing: 1px !important;
 }
 
 .about-main-section h3{
