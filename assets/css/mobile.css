@@ -1555,7 +1555,7 @@
     }
 
     .navbar-collapse {
-        background: var(--button-color);
+        background: var(--primary-color);
         border-radius: 10px;
         position: absolute;
         z-index: 2;
@@ -2608,6 +2608,22 @@
     .about-web{
         display: none;
     }
+    .surgery-about-con {
+        grid-template-areas:
+        "index2-about-txt-con"
+        "index2-about-image-box";
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 100%;
+        position: relative;
+    }
+    .index2-about-txt-con {
+        grid-area: index2-about-txt-con;
+      }
+      
+      .index2-about-txt-con {
+        grid-area: index2-about-txt-con;
+      }
+
     /* custom code  start*/
     .about-mobile{
         display: block;
@@ -2993,7 +3009,7 @@
     }
 
     .index2-about-txt-con p {
-        text-align: center;
+        text-align: start;
     }
 
     .index2-about-txt-con .generic-btn {
@@ -3745,11 +3761,12 @@
     }
 
     .index2-about-txt-con ul {
+        padding-left: 20px;
         grid-template-columns: 100%;
     }
 
     .index2-about-txt-con ul li {
-        padding: 10px 10px 10px 45px;
+        padding: 10px 10px 10px 0px
     }
 
     .index2-about-txt-con ul li i {

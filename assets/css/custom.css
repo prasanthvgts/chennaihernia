@@ -1927,18 +1927,20 @@ h5 {
     align-items: center;
 }
 
-.index2-about-txt-con ul {
+/* .index2-about-txt-con ul {
     display: grid;
     gap: 12px 10px;
     margin-bottom: 36px;
     grid-template-columns: 47% 47%;
-}
+} */
 
 .index2-about-txt-con ul li {
     border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
     background: var(--primary-color);
-    padding: 11px 15px 10px 43px;
-    font-weight: 600;
+    /* padding: 11px 15px 10px 43px; */
+    /* font-weight: 600; */
     color: var(--secondary-color);
 }
 
@@ -1982,7 +1984,7 @@ h5 {
     margin-top: 4px;
 }
 
-.index2-about-image-box::before {
+/* .index2-about-image-box::before {
     content: "";
     background: rgb(0, 0, 0, .1);
     width: 80px;
@@ -1991,7 +1993,7 @@ h5 {
     position: absolute;
     bottom: 24px;
     left: -26px;
-}
+} */
 
 /* index2 about section style end */
 /* index2 contact section style start */
@@ -3963,6 +3965,26 @@ h5 {
     display: block;
 }
 
+/* 'surgery' */
+.surgery-about-con{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 69% 30%;
+}
+.about-main-section h2{
+    color: var(--secondary-color);
+}
+.about-main-section ul{
+    padding-left: 2rem;
+}
+
+.about-main-section h3{
+    /* font-size: 28px; */
+    color: var(--secondary-color);
+}
+.about-main-section p{
+   /* font-size: 16px; */
+}
   /* Responsive Adjustments */
   @media (max-width: 768px) {
     .main-hospital {
